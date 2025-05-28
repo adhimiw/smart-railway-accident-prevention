@@ -12,10 +12,21 @@ https://github.com/adhimiw/smart-railway-accident-prevention/assets/121428949/de
 
 > 📅 **Recorded**: March 22, 2023 | ⚡ **Response Time**: <200ms | 💰 **Cost**: ~$33-63
 
+## 📸 Project Gallery
+
+### 🏗️ Physical Implementation
+![Smart Railway Station Model](docs/images/project_overview.png)
+*Complete smart railway station model showing the platform, tracks, and safety barrier system*
+
+### ⚡ Circuit Implementation
+![Circuit Diagram](docs/images/circuit_diagram.png)
+*Arduino UNO circuit setup with HC-SR04 ultrasonic sensor and SG90 servo motor connections*
+
 ---
 
 ## 📋 Table of Contents
 - [🎥 Project Demo Video](#-project-demo-video)
+- [📸 Project Gallery](#-project-gallery)
 - [Introduction](#introduction)
 - [Abstract](#abstract)
 - [Features](#features)
@@ -72,6 +83,7 @@ The data collected by these sensors is processed by the Arduino Uno, which then 
 
 The system uses a simple but effective circuit design:
 
+### 📋 Connection Schematic
 ```
 Arduino UNO Connections:
 ├── Ultrasonic Sensor (HC-SR04)
@@ -85,7 +97,11 @@ Arduino UNO Connections:
     └── Signal → Digital Pin 9
 ```
 
-*Detailed circuit diagram images are available in the `/docs/circuit-diagrams/` folder.*
+### 🔧 Physical Circuit Implementation
+![Circuit Implementation](docs/images/circuit_diagram.png)
+*Real circuit setup showing Arduino UNO, HC-SR04 sensor, and SG90 servo motor connections*
+
+*Detailed circuit diagram images and wiring instructions are available in the `/docs/circuit-diagrams/` folder.*
 
 ## 🚀 Installation
 
@@ -168,7 +184,21 @@ Navigate to `videos/demo_video.mp4` in the repository and click to view
 | 🎯 **Accuracy** | ±3cm precision in distance measurement |
 | 🔄 **Reliability** | Consistent performance across multiple tests |
 
-*The video demonstrates the complete working system with real-time detection and barrier activation, showcasing the effectiveness of this cost-effective safety solution.*
+### 🖼️ Project Showcase
+
+<div align="center">
+
+#### 🏗️ Complete Railway Station Model
+![Smart Railway Station Model](docs/images/project_overview.png)
+*Physical implementation showing platform, tracks, safety barriers, and sensor placement*
+
+#### ⚡ Arduino Circuit Setup
+![Circuit Implementation](docs/images/circuit_diagram.png)
+*Arduino UNO with HC-SR04 ultrasonic sensor and SG90 servo motor wiring*
+
+</div>
+
+*The video and images demonstrate the complete working system with real-time detection and barrier activation, showcasing the effectiveness of this cost-effective safety solution.*
 
 ## 💰 Cost Analysis
 
