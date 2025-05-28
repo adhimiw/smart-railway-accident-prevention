@@ -8,7 +8,7 @@
 
 **🎬 See the System in Action!**
 
-https://github.com/adhimiw/smart-railway-accident-prevention/assets/121428949/demo_video.mp4
+https://github.com/adhimiw/smart-railway-accident-prevention/videos/demo_video.mp4
 
 > 📅 **Recorded**: March 22, 2023 | ⚡ **Response Time**: <200ms | 💰 **Cost**: ~$33-63
 
